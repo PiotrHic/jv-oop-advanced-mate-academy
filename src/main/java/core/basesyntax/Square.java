@@ -2,9 +2,10 @@ package core.basesyntax;
 
 public class Square extends Figure implements Draw{
 
-    public Square(int square_wall) {
+    public Square(int square_wall, String color) {
         this.square_wall = square_wall;
         this.square_area = square_wall*square_wall;
+        this.color = color;
     }
 
     int square_wall;

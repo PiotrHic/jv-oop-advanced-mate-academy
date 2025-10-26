@@ -2,9 +2,10 @@ package core.basesyntax;
 
 public class IsoscelesTrapezoid extends Figure implements Draw{
 
-    public IsoscelesTrapezoid(int first_wall, int second_wall) {
+    public IsoscelesTrapezoid(int first_wall, int second_wall, String color) {
         this.first_wall = first_wall;
         this.second_wall = second_wall;
+        this.color = color;
     }
 
     int first_wall;

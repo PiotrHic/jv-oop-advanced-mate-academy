@@ -4,8 +4,9 @@ public class Circle extends Figure implements Draw{
 
     int radius;
     double area = radius * Math.PI;
-    public Circle(int radius) {
+    public Circle(int radius, String color) {
         this.radius = radius;
+        this.color = color;
     }
 
     @Override

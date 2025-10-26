@@ -2,9 +2,10 @@ package core.basesyntax;
 
 public class RightTriangle extends Figure implements Draw{
 
-    public RightTriangle(int first_side, int second_side) {
+    public RightTriangle(int first_side, int second_side, String color) {
         this.first_side = first_side;
         this.second_side = second_side;
+        this.color = color;
     }
 
     int first_side;
